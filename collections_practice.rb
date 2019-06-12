@@ -32,4 +32,3 @@ end
 def find_cool(array)
  array.select {|entry| if entry has_value?("cool")}
  end
-end
