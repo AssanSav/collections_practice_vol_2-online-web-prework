@@ -30,5 +30,5 @@ def merge_data(keys, data)
 end
 
 def find_cool(array)
- array.select {|entry|  
+ array.select {|entry| if entry has_ 
 end
