@@ -33,6 +33,6 @@ def find_cool(array)
  array.select {|entry| entry if entry.has_value?("cool")}
  end
 
-def organize_schools()
+def organize_schools(schools)
   
 end
