@@ -33,9 +33,9 @@ def find_cool(array)
  array.select {|entry| entry if entry.has_value?("cool")}
  end
 
-def organize_schools(schools)
+def organize_schools(array)
    school = {}
-   schools.each do |key, value|
+   array.each do |key, value|
      if(school[value[:location]] == nil)
        school[value[:location]] = [key]
      else
