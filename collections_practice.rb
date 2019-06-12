@@ -21,6 +21,7 @@ array.uniq.collect do |element|
    end
 end
 
-def merge_data(keys,  data)
+def merge_data(keys, data)
+  
 
 end
