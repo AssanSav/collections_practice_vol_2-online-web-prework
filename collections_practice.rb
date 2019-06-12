@@ -36,13 +36,13 @@ def find_cool(array)
 def organize_schools(array)
 org_school_by_location = {}
 array.each do |key, value|
-  if org_school[value[:location]] == nil
-    org_school[value[:location]] = [key]
+  if org_school_by_location[value[:location]] == nil
+    org_school_by_location[value[:location]] = [key]
   else
-    org_school[value[:location]] << key
+    org_school_by_location[value[:location]] << key
   end
 end
-org_school
+org_school_by_location
 end
 
 
