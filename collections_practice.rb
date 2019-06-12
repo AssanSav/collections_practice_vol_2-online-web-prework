@@ -42,5 +42,5 @@ schools.each do |key, value|
     org_school[value[:location]] << key
   end
 end
-
+org_school
 end
