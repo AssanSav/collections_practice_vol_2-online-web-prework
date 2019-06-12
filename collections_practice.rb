@@ -22,5 +22,5 @@ array.uniq.collect do |element|
 end
 
 def merge_data(array)
-array.each {|data| data.merge}
+
 end
