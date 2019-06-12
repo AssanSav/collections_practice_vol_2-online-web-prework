@@ -38,4 +38,9 @@ org_school = {}
 schools.each do |key, value|
   if org_school[value[:location]] == nil 
     org_school[value[:location]] = key 
+  else
+    org_school[value[:location]] << key
+  end
+end
+
 end
